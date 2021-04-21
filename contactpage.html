@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>마켓컬리 | 회원가입</title>
+    <meta name="description" content="DESCRIPTION">
+    <link rel="stylesheet" href="./css/initial.css">
+    <link rel="stylesheet" href="./css/general_ui.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--상단으로 이동버튼 영역-->
+    <div id="go_to_top">
+      <a href="#"></a>
+    </div>
+     <!--상단영역-->
+    <div id="usermenu">
+      <ul class="listmenu">
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+    </div>
+
+     <header id="main_header">
+       <img src="./img/logo.png" alt="logoimage">
+     </header>
+
+   <div id="sub_header">
+    <div class="gnb_left">
+      <ul class="g_left">
+          <li>
+            <a href="#">
+              <span class="icon"></span>
+              <span class="text">전체 카테고리</span>
+            </a>
+          </li>
+          <li><a href="#">신상품</a></li>
+          <li><a href="#">베스트</a></li>
+          <li><a href="#">알뜰쇼핑</a></li>
+          <li><a href="#">금주해택</a></li>
+       </ul>
+    </div>
+    <div class="gnb_right">
+    <div class="search">
+      <input type="text" name="search" placeholder="벚꽃따라 맛따라 컬리 미식여행">
+      <button><img src="./img/search.png"></button>
+    </div>
+    <div class="location"><a href="#"><img src="./img/location.png"></a></div>
+    <div class="cart"><a href="#"><img src="./img/shopping-cart.png"></a></div>
+  </div>
+</div>
+<!--회원가입영역-->
+  <div class="table_wrap">
+    <div class="title">
+      <h3>회원가입</h3>
+      <p><em>*</em>필수입력사항</p>
+    </div>
+    <table class="table_a">
+      <tr>
+        <td>
+          <em>*</em>사용자 아이디
+        </td>
+        <td>
+          <input type="text" class="middle" placeholder="8~12자까지"/>
+          <button class="gbtn transparent">중복확인</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <em>*</em>비밀번호
+        </td>
+        <td>
+          <input type="text" class="middle" placeholder="10~14자/ 문자+숫자+특수문자 조합"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <em>*</em>한글성명
+        </td>
+        <td>
+          <input type="text" class="middle"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <em>*</em>영문성명
+        </td>
+        <td>
+          <input type="text" class="middle"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <em>*</em>주소
+        </td>
+        <td>
+          <input type="text" class="big"/>
+          <button class="gbtn transparent">검색</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          상세주소
+        </td>
+        <td>
+          <input type="text" class="big" placeholder="예) 1동 1002호(00동, 00아파트) *단독주택일 경우 건물번호 입력"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <em>*</em>이메일
+        </td>
+        <td>
+          <input type="text"><i>@</i><input type="text"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <em>*</em>전화번호
+        </td>
+        <td>
+          <input type="text" class="tiny"><i>-</i><input type="text" class="tiny"><i>-</i><input type="text" class="tiny"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <em>*</em>휴대폰 번호
+        </td>
+        <td>
+          <input type="text" class="tiny"/><i>-</i><input type="text" class="tiny"/><i>-</i><input type="text" class="tiny"/>
+          <button class="gbtn transparent">본인확인</button>
+          <input type="checkbox" id="ck" name="ck"/>
+          <label for="ck"></label>
+          <div class="txt">확인 완료 여부</div>
+        </td>
+      </tr>
+    </table>
+    <div class="button_group">
+      <button class="gbtn normal">회원가입</button>
+    </div>
+  </div>
+    <!--푸터영역-->
+    <div id="footer">
+      <div class="inner_footer">
+        <div class="footer_left">
+          <h3>고객행복센터</h3>
+         <div class="call">
+           <span><a href="#">1644-1107</a></span>
+           <dl class="call_text">
+             <dt>365고객센터</dt>
+             <dd>오전 7시 - 오후 7시</dd>
+           </dl>
+         </div>
+         <div class="kakao">
+           <span><a href="#">카카오톡 문의</a></span>
+           <dl class="kakao_text">
+             <dt>365고객센터</dt>
+             <dd>오전 7시 - 오후 7시</dd>
+           </dl>
+         </div>
+         <div class="qna">
+           <span><a href="#">1:1 문의</a></span>
+           <dl class="qna_text">
+             <dt>24시간 접수 가능</dt>
+             <dd>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</dd>
+           </dl>
+         </div>
+        </div>
+        <div class="footer_right">
+          <ul class="link">
+            <li><a href="#">컬리소개</a></li>
+            <li><a href="#">컬리소개영상</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용안내</a></li>
+          </ul>
+          <ul class="sns">
+            <li><a href="#"><img src="https://res.kurly.com/pc/ico/1810/ico_instagram.png" alt="바로가기"></a></li>
+            <li><a href="#"><img src="https://res.kurly.com/pc/ico/1810/ico_fb.png" alt="바로가기"></a></li>
+            <li><a href="#"><img src="https://res.kurly.com/pc/ico/1810/ico_blog.png" alt="바로가기"></a></li>
+            <li><a href="#"><img src="https://res.kurly.com/pc/ico/1810/ico_naverpost.png" alt="바로가기"></a></li>
+            <li><a href="#"><img src="https://res.kurly.com/pc/ico/1810/ico_youtube.png" alt="바로가기"></a></li>
+          </ul>
+          <span>법인명 (상호) : 주식회사 컬리 | 사업자등록번호 : 261-81-23567 <a href="#">사업자정보 확인</a><br>
+          통신판매사업 : 제 2018-서울강남-01646 | 개인정보보호책임자 : 이원준<br>
+          주소 : 서울시 도산대로 16길 20, 이래빌딩 B1~ 4F | 대표이사 : 김슬아<br>
+          입점문의 : <a href="#">입점문의하기</a> | 제휴문의 : <a href="#">business@kurlycorp.com</a><br>
+          채용문의 : <a href="#">recruit@kurlycorp.com</a><br>
+          팩스 : 070-7500-6098 | 이메일 : <a href="#">help@kurlycorp.com</a>
+          <p> KURLY CORP .ALL RIGHTS RESERVED</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
