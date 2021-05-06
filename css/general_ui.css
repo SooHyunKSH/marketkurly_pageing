@@ -140,6 +140,17 @@ button.gbtn.normal.gray{
   margin: 7px 5px 0;
 }
 
+.table_a tr td select{
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 10px;
+  border-radius: 3px;
+  color: #000;
+  font-weight: 300;
+}
+
 .txt{
   display: inline-block;
   font-size: 14px;

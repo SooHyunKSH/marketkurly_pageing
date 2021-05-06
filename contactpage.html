@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./css/initial.css">
     <link rel="stylesheet" href="./css/general_ui.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/jquery_3.5.1.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script type="text/javascript" src="./js/contactpage.js"></script>
 
     <!--[if lt IE 9]>
     <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,7 +30,9 @@
     </div>
 
      <header id="main_header">
+       <a href="index.html">
        <img src="./img/logo.png" alt="logoimage">
+       </a>
      </header>
 
    <div id="sub_header">
@@ -47,7 +52,7 @@
     </div>
     <div class="gnb_right">
     <div class="search">
-      <input type="text" name="search" placeholder="벚꽃따라 맛따라 컬리 미식여행">
+      <input type="text" name="search">
       <button><img src="./img/search.png"></button>
     </div>
     <div class="location"><a href="#"><img src="./img/location.png"></a></div>
@@ -66,7 +71,7 @@
           <em>*</em>사용자 아이디
         </td>
         <td>
-          <input type="text" class="middle" placeholder="8~12자까지"/>
+          <input type="text" class="middle" />
           <button class="gbtn transparent">중복확인</button>
         </td>
       </tr>
@@ -75,7 +80,7 @@
           <em>*</em>비밀번호
         </td>
         <td>
-          <input type="text" class="middle" placeholder="10~14자/ 문자+숫자+특수문자 조합"/>
+          <input type="text" class="middle"/>
         </td>
       </tr>
       <tr>
@@ -108,7 +113,7 @@
           상세주소
         </td>
         <td>
-          <input type="text" class="big" placeholder="예) 1동 1002호(00동, 00아파트) *단독주택일 경우 건물번호 입력"/>
+          <input type="text" class="big"/>
         </td>
       </tr>
       <tr>
@@ -116,7 +121,14 @@
           <em>*</em>이메일
         </td>
         <td>
-          <input type="text"><i>@</i><input type="text"/>
+          <input type="text"><i>@</i><input type="text" class="emailselect"/>
+          <select class="email" name="emailselect">
+            <option value="">직접입력</option>
+            <option value="google.com">google.com</option>
+            <option value="naver.com">naver.com</option>
+            <option value="daum.net">daum.net</option>
+            <option value="hanmail.net">hanmail.net</option>
+          </select>
         </td>
       </tr>
       <tr>
