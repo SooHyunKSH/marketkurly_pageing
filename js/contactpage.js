@@ -1,4 +1,10 @@
 $(function(){
+  /*중복확인버튼*/
+  $("button:nth-of-type(1)").click(function(){
+    if( $(this).prev().val().length < 8 || $(this).prev().val().length > 12){
+      alert("아이디는 8자 이상 12자 이하로 입력하세요.")
+    }
+  })
   /*input focus*/
 
   $("tr:nth-of-type(1) td input").val("8~12자까지").css("color","#c3c3c3").one("focus",function(){
